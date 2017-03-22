@@ -1,0 +1,132 @@
+.box {
+    background-image: url(../sources/taks1&2/background.png);
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-color:red;
+    width:640px;
+    height:1096px;
+    padding-top:1px;
+    position:relative;
+}
+p {
+    text-align:center;
+    line-height:100%;
+}
+div{
+    text-align:center;
+}
+.lastgame{
+    margin-top:24.5%;
+    font-size:2.17em;
+    font-family: SimHei,serif;
+    color:#9a9a9a;
+}
+.gamename{
+    margin-top:15.1%;
+    font-size:2.36em;
+    font-family:Simhei,serif;
+    color:#fbb435;
+}
+.game1{
+    margin:9% auto 0;
+    width:466px;
+    height:135px;
+    background-image:url(../sources/taks1&2/versionSelect.png);
+    background-position:0 0 ;
+    font-size:2em;
+    text-align:center;
+    line-height:135px;
+    color:#ffffff;
+    font-family:Simhei,serif;
+
+}
+.discription1{
+    margin-top:4.1%;
+    font-family:Simhei,serif;
+    color:#787878;
+    text-align:center;
+    font-size:1.53em;
+}
+.game2{
+    margin:4.1% auto 0;
+    width:466px;
+    height:135px;
+    background-image:url(../sources/taks1&2/versionSelect.png);
+    background-position:0 0 ;
+    font-size:2em;
+    text-align:center;
+    line-height:135px;
+    color:#ffffff;
+    font-family:Simhei,serif;
+}
+.discription2{
+    margin-top:4.1%;
+    font-family:Simhei,serif;
+    color:#787878;
+    text-align:center;
+    font-size:1.53em;
+}
+.game3{
+    margin:4.1% auto 0;
+    width:466px;
+    height:135px;
+    background-image:url(../sources/taks1&2/versionSelect.png);
+    background-position:0 0 ;
+    font-size:2em;
+    text-align:center;
+    line-height:135px;
+    color:#ffffff;
+    font-family:Simhei,serif;
+}
+.discription3{
+    margin-top:4.1%;
+    font-family:Simhei,serif;
+    color:#787878;
+    text-align:center;
+    font-size:1.53em;
+}
+.pointer{
+    margin:2.1% auto;
+    font-family:Simhei,serif;
+    width:108px;
+    height:16px;
+
+}
+body{
+    background-color:orange;
+    margin:0 0;
+}
+.circle2{
+    height:16px;
+    width:16px;
+    border-radius:8px;
+    display:inline-block;
+    margin-left:11px;
+    background-color:#f0f0f0;
+}
+.circle1{
+    background-color:#69d1e9;
+    height:16px;
+    width:16px;
+    border-radius:8px;
+    display:inline-block;
+    margin-left:11px;
+}
+
+.search{
+    position:absolute;
+    top:14.05%;
+    left:83.9%;
+    background-image: url(../sources/taks1&2/search.png);
+    width:33px;
+    height:44px;
+}
+
+.pagedown{
+    position:absolute;
+    top:58.03%;
+    left:88.6%;
+    width:31px;
+    height:60px;
+    background-image:url(../sources/taks1&2/pagedown.png);
+}

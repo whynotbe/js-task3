@@ -1,0 +1,43 @@
+.main{
+    background-image:url("../sources/task3/翻牌1底板.png");
+    width:640px;
+    height:1096px;
+    float:left;
+}
+.back{
+    width:24px;
+    height:44px;
+    float:left;
+    margin-top:25px;
+    margin-left:23px;
+}
+.close{
+    width:36px;
+    height:36px;
+    float:right;
+    margin-right:18px;
+    margin-top:35px;
+}
+.number{
+    font-size:40px;
+    width:70px;
+    height:70px;
+    margin-top:141px;
+    margin-left:284px;
+    color:red;
+    font-family:"Microsoft YaHei UI",serif;
+    font-weight:bold;
+    text-align:center;
+    line-height:70px;
+}
+.next{
+    margin-top:737px;
+    margin-left:74px;
+    width:491px;
+    height:83px;
+    font-size:48px;
+    color:#ffffff;
+    line-height:83px;
+    text-align:center;
+
+}

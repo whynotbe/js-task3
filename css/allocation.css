@@ -1,0 +1,135 @@
+.tri{
+    width:28px;
+    height:28px;
+    background-color:#ffffff;
+    position:relative;
+    transform: rotate(45deg);
+    margin-left:25px;
+    margin-top:30px;
+}
+.tri-before{
+    position:absolute;
+    width:28px;
+    height:28px;
+    top:-4px;
+    left:4px;
+    background-color:#48c4e5;
+}
+.head{
+    background-color:#48c4e5;
+    width:640px;
+    height:91px;
+    padding-top:1px;
+    margin:0 0;
+
+}
+body{
+    border:1px solid #e1e1e1;
+    margin:0 0;
+    width:640px;
+    height:1096px;
+}
+.title{
+    width:610px;
+    height:66px;
+    margin-left:15px;
+    margin-top:10px;
+    border-bottom:2px solid #dfdfdf;
+    border-right:2px solid #e1e1e1;
+    border-radius: 5px;
+    font-size:27px;
+    text-align:center;
+    line-height:66px;
+    font-family: Simhei, serif;
+    color:#797979;
+}
+.playerNumber{
+    width:610px;
+    height:375px;
+    border-bottom:2px solid #e1e1e1;
+    margin-left:15px;
+}
+.killerIcon{
+    background-image:url(../sources/taks1&2/杀手.png);
+    width:48px;
+    height:48px;
+    float:left;
+    margin-top:22px;
+    margin-left:30px;
+
+}
+.civilIcon{
+    background-image:url(../sources/taks1&2/水民.png);
+    width:48px;
+    height:48px;
+    float:left;
+    margin-top:26px;
+    margin-left:86px;
+
+}
+.killerNumber{
+    width:150px;
+    height:48px;
+    line-height:48px;
+    color:#828282;
+    float:left;
+    margin-top:26px;
+    margin-left:20px;
+    font-size:20px;
+
+}
+.civilNumber{
+    width:150px;
+    height:48px;
+    line-height:48px;
+    color:#828282;
+    float:left;
+    margin-top:26px;
+    margin-left:20px;
+    font-size:20px;
+
+
+}
+.tail{
+    width:610px;
+    height:554px;
+}
+.input{
+    margin:233px auto;
+    width:610px;
+    height:26px;
+}
+.note1{
+    margin-left:65px;
+    font-size:26px;
+    line-height:26px;
+    color:#42403b;
+    font-family: Simhei, serif;
+}
+.inputNumber{
+    font-size:26px;
+    color:#efbf60;
+    line-height:26px;
+    font-family: Simhei, serif;
+    margin-left:30px;
+    width:40px;
+    border:none;
+}
+.note2{
+    margin-left:25px;
+    font-size:17px;
+    line-height:26px;
+    color:#f8ca6c;
+    font-family: Simhei, serif;
+}
+.submit{
+    margin-top:388px;
+    width:610px;
+    height:88px;
+    background-color:#f8bd4a;
+    font-size:44px;
+    color:#ffffff;
+    text-align:center;
+    line-height:88px;
+    font-family: Simhei, serif;
+}
