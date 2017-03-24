@@ -2,7 +2,6 @@
     background-image: url(../sources/taks1&2/background.png);
     background-position:0 0;
     background-repeat:no-repeat;
-    background-color:red;
     width:640px;
     height:1096px;
     padding-top:1px;
@@ -93,7 +92,6 @@ div{
 
 }
 body{
-    background-color:orange;
     margin:0 0;
 }
 .circle2{

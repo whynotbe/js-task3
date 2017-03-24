@@ -28,6 +28,8 @@ body{
     margin:0 0;
     width:640px;
     height:1096px;
+    box-shadow:0 0 5px #828282;
+
 }
 .title{
     width:610px;
@@ -48,6 +50,7 @@ body{
     height:375px;
     border-bottom:2px solid #e1e1e1;
     margin-left:15px;
+    box-shadow:0 3px 3px  -3px #828282;
 }
 .killerIcon{
     background-image:url(../sources/taks1&2/杀手.png);

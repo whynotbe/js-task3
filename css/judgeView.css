@@ -1,0 +1,74 @@
+.main{
+    background-image: url("../sources/task3/法官日记底板.png");
+    width:640px;
+    height:1096px;
+    float:left;
+}
+.back{
+    background-image:url("../sources/task3/左上返回按钮.png");
+    width:24px;
+    height:44px;
+    float:left;
+    margin-left:24px;
+    margin-top:21px;
+
+}
+.close{
+    background-image:url("../sources/task3/右上关闭按钮.png ");
+    width:36px;
+    height:36px;
+    float:left;
+    margin-left:531px;
+    margin-top:30px;
+}
+.line{
+    width:640px;
+    float:left;
+    margin-top:20px;
+    border:1px #74e4db;
+}
+.list{
+    width:640px;
+    height:820px;
+    float:left;
+    margin:0 auto;
+    overflow: auto;
+
+}
+.id{
+    float:left;
+    margin:70px 35px 0 35px;
+    width:136px;
+    height:136px;
+    background-image:url(../sources/task3/目标头像.png);
+}
+.order{
+    width:136px;
+    height:105px;
+    float:left;
+    font-size:30px;
+    color:#000000;
+    font-family: Simhei, serif;
+    text-align:center;
+    line-height:114px;
+}
+.num2{
+    width:136px;
+    height:31px;
+    float:left;
+    font-size:22px;
+    line-height:30px;
+    color:#ffffff;
+    font-family: Simhei, serif;
+    font-weight:bold;
+    text-align:center;
+
+}
+.next{
+    margin-top:45px;
+    margin-left:83px;
+    float:left;
+    width:492px;
+    height:89px;
+
+}

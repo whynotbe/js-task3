@@ -9,10 +9,12 @@ window.onload = function(){
 
 function getNumber(){
     var number = document.getElementById("input");
+    
     allocate(number.value);
+    number.focus();
     var tri=document.getElementsByClassName("tri");
     tri[0].onclick=function(){
-        window.location.href = "main.html";
+        window.location.href = "1-main.html";
     }
 
     number.onblur = function(){
@@ -76,6 +78,6 @@ function submit(){     //点击"去发牌按钮",根据杀手和水民人数分�
         id.unshift(killers.length);
         var idString =id.join();
         
-        window.location.href = "checkId-1.html"+"?index="+idString;  //传递参数过去,不知道为啥非得加index=，但不加不行，会出现奇怪的东西
-    }
+        window.location.href = "3-checkId-1.html"+"?index="+"1,"+idString;  //传递参数过去,不知道为啥非得加index=，但不加不行，会出现奇怪的东西
+    }                                                              // url里的参数数组,参数组依次是玩家序号,杀手人数,平民人数,杀手序号,平民序号
 }
