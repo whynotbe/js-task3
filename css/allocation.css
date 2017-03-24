@@ -96,11 +96,13 @@ body{
 .tail{
     width:610px;
     height:554px;
+    margin-left:15px;
 }
 .input{
     margin:233px auto;
     width:610px;
     height:26px;
+
 }
 .note1{
     margin-left:65px;
@@ -117,6 +119,7 @@ body{
     margin-left:30px;
     width:40px;
     border:none;
+    text-align:center;
 }
 .note2{
     margin-left:25px;
@@ -126,7 +129,6 @@ body{
     font-family: Simhei, serif;
 }
 .submit{
-    margin-top:388px;
     width:610px;
     height:88px;
     background-color:#f8bd4a;
@@ -135,4 +137,6 @@ body{
     text-align:center;
     line-height:88px;
     font-family: Simhei, serif;
+    float:left;
+    margin:-70px auto;
 }
