@@ -54,7 +54,7 @@ function    shuffle(x,array){
     for(i = 0 ;i < x ; i++){
         var order = Math.floor(Math.random()*(array.length));
         var a = array.splice(order,1);
-        c.splice(0,0,order);
+        c.splice(0,0,a);
     }
     return c;
     
