@@ -6,6 +6,7 @@ window.onload = function()
 {
     showid();
     next();
+    back();
     close();
 }
 
@@ -57,5 +58,12 @@ function close(){
     var close =document.getElementsByClassName("close")[0];
     close.onclick = function(){
         window.location.href="1-main.html";
+    }
+}
+
+function back(){
+    var back =document.getElementsByClassName("back")[0];
+    back.onclick = function(){
+        window.history.back(-1);
     }
 }
